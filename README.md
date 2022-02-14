@@ -4,10 +4,10 @@ Mechacar, an AutorUs’s newest prototype is suffering from production troubles 
 
 ## Purpose
 The analysis focus on the following:
-A. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-B. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-C. Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-D. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+* A. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+* B. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+* C. Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+* D. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
 # Design Summary
 ## Linear Regression to Predict MPG
