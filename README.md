@@ -31,7 +31,7 @@ According to the analysis, LOT 3 does not meet the design specification as the v
 
 ## T-Tests on Suspension Coils
 ![image](https://user-images.githubusercontent.com/92557075/153797362-ce8d4422-7875-436a-bf44-837d9ad55bbe.png)
-Metric to test - highway fuel efficiency and vehicle weight
-null hypothesis or alternative hypothesis - Can perform multiple linear regression to analyse if both vehicle weight and horsepower effect fuel efficiency across manufacturers.
-What statistical test would you use to test the hypothesis? And why? - multiple linear regression to analyse if both vehicle weight and horsepower effect fuel efficiency across manufacturers.
-What data is needed to run the statistical test? Data from multiple manufactures for various models and specifications of cars. 
+1. Metric to test - highway fuel efficiency and vehicle weight
+2. Null hypothesis or alternative hypothesis - Can perform multiple linear regression to analyse if both vehicle weight and horsepower effect fuel efficiency across manufacturers.
+3. What statistical test would you use to test the hypothesis? And why? - multiple linear regression to analyse if both vehicle weight and horsepower effect fuel efficiency across manufacturers.
+4. What data is needed to run the statistical test? Data from multiple manufactures for various models and specifications of cars. 
