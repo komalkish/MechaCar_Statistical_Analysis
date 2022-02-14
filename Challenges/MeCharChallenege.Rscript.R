@@ -1,0 +1,18 @@
+library("tidyverse")
+library(dplyr)
+mechacardata <- read_csv("MechaCar_mpg.csv")
+mechampgdf <-data.frame(mechacardata)
+head(mechampgdf)
+mpgreg<- lm(formula=mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = mechampgdf)
+summary(mpgreg)
+suspensiondata<- read_csv("Suspension_Coil.csv")
+total_summary <- suspensiondata %>% summarize(Mean_suspension=mean(PSI), Median_Suspension=median(PSI), Variance_Suspension=var(PSI), STD_Suspension=sd(PSI), .groups = 'keep')
+lot_summary <- suspensiondata %>% group_by(Manufacturing_Lot) %>% summarize(Mean_Suspension=mean(PSI), Median_Suspension=median(PSI), Variance_Suspension=var(PSI), STD_Suspension=sd(PSI), .groups = 'keep')
+print(total_summary)
+print(lot_summary)
+t.test(suspensiondata$PSI, mu=1500)
+t.test(subset(suspensiondata$PSI, suspensiondata$Manufacturing_Lot == 'Lot1'), mu =1500)
+t.test(subset(suspensiondata$PSI, suspensiondata$Manufacturing_Lot == 'Lot2'), mu =1500)
+t.test(subset(suspensiondata$PSI, suspensiondata$Manufacturing_Lot == 'Lot3'), mu =1500)
+plt <- ggplot(mechampgdf,aes(x=mpg,y=vehicle_length)) #import dataset into ggplot2> plt + geom_point() + geom_line(aes(y=yvals), color = "red") #plot scatter and linear model
+plt + geom_point() + geom_line(aes(y=yvals), color = "red") #plot scatter and linear model
