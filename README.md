@@ -11,7 +11,7 @@ The analysis focus on the following:
 
 # Design Summary
 ## Linear Regression to Predict MPG
-The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. using the linear regression, I have addressed the following:
+The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Through linear regression, I have addressed the following:
 
 ![image](https://user-images.githubusercontent.com/92557075/153796666-d2e6c74b-67b5-4128-95d0-c7ea6880168e.png)
 
