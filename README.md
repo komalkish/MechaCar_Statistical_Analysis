@@ -1,8 +1,8 @@
 # MechaCar_Statistical_Analysis
-## Overview of the Project
+# Overview of the Project
 Mechacar, an AutorUs’s newest prototype is suffering from production troubles that are blocking the manufacturing team’s progress. The analysis below focuses on reviewing the production data for insights that may help the manufacturing team in determining the production issues.
 
-## Purpose
+# Purpose
 The analysis focus on the following:
 * A. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
 * B. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
